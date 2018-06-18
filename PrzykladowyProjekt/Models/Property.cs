@@ -13,10 +13,10 @@ namespace MistrzowieWynajmu.Models
         public int Rooms { get; set; }
         public int Area { get; set; }
         public bool Washer { get; set; }
-        public bool Refrigeratoe { get; set; }
+        public bool Refrigerator { get; set; }
         public bool Iron { get; set; }
 
-        public virtual int AddressIs { get; set; }
+        public virtual int AddressId { get; set; }
         public virtual Address Address { get; set; }
 
         public virtual int OwnerId { get; set; }
